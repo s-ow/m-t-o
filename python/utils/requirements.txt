@@ -1,4 +1,0 @@
-requests
-datetime
-colorama
-pystyle
