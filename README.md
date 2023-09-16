@@ -6,7 +6,7 @@ niveau très avancé) afin de pouvoir créer un site, dont l'esthétique est tr�
 ![](https://i.imgur.com/hrcsjSv.png)
 
 ## Fonctionnement pratique
-> API
+> API    
 Les données sont récupérées grâce à l'API gratuite de [openweathermap](https://openweathermap.org/).
 Je ne possède aucun abonnement à cette api donc les requêtes sont limitées et seule la météo instatanée est utilisable.
 Le temps de mise à jour des données est de 3 heures.
