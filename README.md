@@ -23,4 +23,6 @@ J'ai simplement fait en sorte que selon le temps renvoyé par l'API, telle ou te
 > Rien de plus simple !
 
 - Utilisation du python :
-> Soon
+> Pour télécharger facilement les fichiers python, j'ai créé une branche qui contient uniquement les fichiers python [ici]{https://github.com/s-ow/meteo/tree/python}.
+
+Une fois les fichiers installés, il vous suffit de lancer le fichier `install.bat` lors du premier lancement, puis le fichier `start.bat` par la suite.
