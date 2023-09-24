@@ -6,6 +6,43 @@ body {
   background-attachment: fixed;
 }
 
+.input-field {
+  background-color: #ced0e0;
+  border-radius: 5px;
+  width: 200px;
+  height: 25px;
+  padding: 5px;
+  border: #ced0e0;
+  transition: ease-in-out 0.3s;
+}
+.input-field:focus {
+  background-color: aliceblue;
+  transition: ease-in-out 0.3s;
+}
+
+.input-field:hover {
+  background-color: azure;
+  transition: ease-in-out 0.3s;
+}
+
+.submit {
+  background-color: #ced0e0;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 5px;
+  border: #ced0e0;
+  border: solid black 1px;
+  transition: ease-in-out 0.1s;
+}
+.submit:hover {
+  background-color: azure;
+  transition: ease-in-out 0.3s;
+}
+.submit:active {
+  border: solid white 1px;
+  transition: ease-in-out 0.1s;
+}
+
 .main {
   display: block;
   text-align: center;
