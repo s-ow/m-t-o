@@ -1,14 +1,14 @@
-document.getElementById("monFormulaire").addEventListener("submit", function (event) {
+document.getElementById("form").addEventListener("submit", function (event) {
     event.preventDefault();
 
-    const texteUtilisateur = document.getElementById("zoneSaisie").value;
+    const villeinput = document.getElementById("input-field").value;
 
-    const apiUrl = "https://api.openweathermap.org/data/2.5/weather?appid=82f265a6e71ff7c7c35e66b492ec1f3c&lang=fr&units=metric&q=" + texteUtilisateur;
+    const apiUrl = "https://api.openweathermap.org/data/2.5/weather?appid=82f265a6e71ff7c7c35e66b492ec1f3c&lang=fr&units=metric&q=" + villeinput;
 
     fetch(apiUrl)
       .then((response) => {
         if (!response.ok) {
-          const input = document.getElementById('zoneSaisie')
+          const input = document.getElementById('input-field')
           input.placeholder = "Ville introuvable..."
           throw new Error(
             "La requête a échoué avec le code " + response.status
@@ -137,5 +137,5 @@ document.getElementById("monFormulaire").addEventListener("submit", function (ev
         }
       })
 
-    document.getElementById("monFormulaire").reset();
+    document.getElementById("form").reset();
   });
